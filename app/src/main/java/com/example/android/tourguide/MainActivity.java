@@ -12,6 +12,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
 
 import com.example.android.tourguide.ui.main.SectionsPagerAdapter;
 
@@ -28,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         tabs.setupWithViewPager(viewPager);
         FloatingActionButton fab = findViewById(R.id.fab);
 
+        // Set click listeners.
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
