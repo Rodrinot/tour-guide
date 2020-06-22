@@ -59,17 +59,17 @@ public class PlaceholderFragment extends Fragment {
                 if (s.equalsIgnoreCase("Visit")) {
                     // Create a list of words.
                     final ArrayList<Item> items = new ArrayList<Item>();
-                    items.add(new Item("Place de la Bourse", "Quai du Maréchal Lyautey"));
-                    items.add(new Item("Cathédrale Saint-André", "66 Rue Trois Conils"));
-                    items.add(new Item("Le Grand Théâtre", "Place de la Comédie"));
-                    items.add(new Item("Basilique Saint-Seurin", "Place des Martyrs de la Résistance"));
-                    items.add(new Item("Basilique Saint-Michel", "Place Meynard"));
-                    items.add(new Item("Musée des Beaux-Arts", "20 Cours d'Albret"));
-                    items.add(new Item("Musée d'Aquitaine", "20 Cours Pasteur"));
-                    items.add(new Item("Esplanade des Quinconces", "Place des Quinconces"));
-                    items.add(new Item("Palais Gallien", "Rue du Docteur Albert Barraud"));
-                    items.add(new Item("Pont de Pierre", "Garonne River"));
-                    items.add(new Item("Grosse Cloche", "Rue Saint-James Cours"));
+                    items.add(new Item("Place de la Bourse", "Quai du Maréchal Lyautey", R.drawable.fountain));
+                    items.add(new Item("Cathédrale Saint-André", "66 Rue Trois Conils", R.drawable.church));
+                    items.add(new Item("Le Grand Théâtre", "Place de la Comédie", R.drawable.theatre));
+                    items.add(new Item("Basilique Saint-Seurin", "Place des Martyrs de la Résistance", R.drawable.church));
+                    items.add(new Item("Basilique Saint-Michel", "Place Meynard", R.drawable.church));
+                    items.add(new Item("Musée des Beaux-Arts", "20 Cours d'Albret", R.drawable.museum));
+                    items.add(new Item("Musée d'Aquitaine", "20 Cours Pasteur", R.drawable.museum));
+                    items.add(new Item("Esplanade des Quinconces", "Place des Quinconces", R.drawable.fountain));
+                    items.add(new Item("Palais Gallien", "Rue du Docteur Albert Barraud", R.drawable.theatre));
+                    items.add(new Item("Pont de Pierre", "Garonne River", R.drawable.bride));
+                    items.add(new Item("Grosse Cloche", "Rue Saint-James Cours", R.drawable.theatre));
 
                     // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
                     // adapter knows how to create list items for each item in the list.
